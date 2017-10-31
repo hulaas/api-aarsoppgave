@@ -1,0 +1,12 @@
+
+CREATE TABLE `bruker` 
+(
+    `idbruker` INT NOT NULL AUTO_INCREMENT,
+    `brukerNavn` VARCHAR(45) NOT NULL,
+     `passord` VARCHAR(40) NOT NULL,
+    `ePost` VARCHAR(45) NOT NULL,
+    `feilLoginnTeller` INT,
+    `feilLoginnSiste` DATETIME,
+    `feilIP` VARCHAR(45),
+PRIMARY KEY (`idbruker`, `brukerNavn`) 
+);

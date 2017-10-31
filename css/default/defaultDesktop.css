@@ -1,0 +1,309 @@
+/*
+Denne siden er utviklet av Fredrik Hulaas. Sist endret 28.09.2017
+Denne siden er kontrollert av Fredrik Ravndal. Sist gang 28.09.2017
+ */
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: #DCDCDC;
+  font-family: georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* header including logo */
+.logosection {
+  width: 100%;
+  height: 130px;
+  background-image: url("../../picture/default/background-desktop.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+
+#mobilelogo {
+  display: none;
+}
+
+/* top-right login form, elements beneath */
+.formtop {
+  float: right;
+  width: 285px;
+  height: 70px;
+  margin-top: 10px;
+  font-size: 18px;
+  margin-left: -50%;
+  margin-right: 175px;
+  margin-top: -100px;
+}
+
+.brukernavnTekst {
+  width: 125px;
+}
+
+.brukernavnmobile {
+  width: 125px;
+}
+
+.passordTekst {
+  width: 125px;
+}
+
+.passordmobile {
+  width: 125px;
+}
+
+/* username container*/
+#logbruker {
+  float: left;
+  display: block;
+}
+
+#logbruker, label {
+  display: block;
+  clear: right;
+}
+
+/* password container*/
+#logpassord {
+  position: relative;
+  clear: right;
+  float: right;
+
+}
+
+/* loginbutton container*/
+#headerbutton {
+  float: right;
+  position: relative;
+  margin-right: 68px;
+  margin-top: -69px;
+}
+
+/* loginbutton for mobile*/
+#loginbutton {
+  display: none;
+}
+
+/* loginbutton for mobile*/
+#loginlabel {
+  display: none;
+}
+
+/* loginbutton, hover beneath */
+.login {
+  background: #4b8df9;
+  padding: 5px 10px 6px;
+  color: #fbf7f7;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px #999;
+  -webkit-box-shadow: 0 1px 3px #999;
+  box-shadow: 0 1px 3px #999;
+  text-shadow: 0 -1px 1px #222;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+.login:hover {
+  background-color: #2a78f6;
+}
+
+
+.registerMobile {
+  display: none;
+}
+
+/* register for mobile */
+#registerbtn {
+  display: none;
+}
+
+/* content of the page */
+#container {
+  height: 87%;
+  width: 75%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  box-shadow: 0px 14px 20px -3px rgba(0,0,0,0.49);
+}
+
+/* top content in container */
+#topcontent {
+  width: 100%;
+  padding-bottom: 7.5%;
+  padding-top: 2%;
+  height: 90%;
+}
+
+#infospan {
+  width: 30%;
+  margin-left: 7%;
+  text-align: justify;
+}
+
+#tekst1d {
+  display: none;
+}
+
+/* registration form */
+#contactform {
+  height: 40%;
+  overflow: hidden;
+}
+
+/* for mobile */
+.register {
+  display: none;
+}
+
+/* for mobile */
+.dropbtn {
+  display: none;
+}
+
+/* The registration form styling */
+.form{
+  background:#f1f1f1;
+  width:420px;
+  float: right;
+  clear: both;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.form fieldset  {
+  border:0px;
+  padding:0px;
+  margin:0px;
+}
+
+.form fieldset, label {
+  margin: 0px 0px 10px 0px;
+}
+
+.form p.contact {
+  font-size: 12px;
+  margin:0px 0px 10px 0;
+  line-height: 10px;
+  font-family:Arial, Helvetica;
+}
+
+.form input[type="text"] {
+  width: 350px;
+}
+
+.form input[type="email"] {
+  width: 350px;
+}
+
+.form input[type="password"] {
+  width: 350px;
+}
+
+.form input.birthday{
+  width:60px;
+  display: block;
+}
+
+.form input.birthyear{
+  width:120px;
+}
+
+.form label {
+  color: #000;
+  font-weight:bold;
+  font-size: 14px;
+  font-family:Arial, Helvetica;
+}
+
+.form label.month {
+  width: 135px;
+}
+
+.form input, textarea {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #D2691E;
+  padding: 5px;
+  font-family: Keffeesatz, Arial;
+  color: #4b4b4b;
+  font-size: 14px;
+  -webkit-border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.form input:focus, textarea:focus {
+  border: 1px solid #ff5400;
+  background-color:
+  rgba(255, 255, 255, 1);
+}
+
+.form .select-style {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  background-image: url("../../picture/default/select-arrow.png"),
+  -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 0px solid #FFF;
+  color: #555;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding: 5px 8px 8px 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 5px;
+  width: 85px;
+}
+
+.form .gender {
+  width:350px;
+  margin: 0;
+  }
+
+.form input.button{
+  background: #4b8df9;
+  display: inline-block;
+  padding: 5px 10px 6px;
+  color: #fbf7f7;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px #999;
+  -webkit-box-shadow: 0 1px 3px #999;
+  box-shadow: 0 1px 3px #999;
+  text-shadow: 0 -1px 1px #222;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+.form input.button:hover	{
+  background-color: #2a78f6;
+}
+
+/* for mobile */
+#faq {
+  display: none;
+}

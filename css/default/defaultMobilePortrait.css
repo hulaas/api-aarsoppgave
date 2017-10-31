@@ -1,0 +1,198 @@
+/*
+Denne siden er utviklet av Fredrik Ravndal. Sist endret 28.09.2017
+Denne siden er kontrollert av Fredrik Hulaas. Sist gang 28.09.2017
+ */
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: #F0F8FF;
+  font-family: verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../picture/default/background-mobile.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+
+/* top page logo */
+.logosection {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 100px;
+}
+
+/* logo for desktop */
+#desktoplogo {
+  display: none;
+}
+
+/* Loginform */
+.formtop {
+  margin-top: 3%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+  background-color: #aeddf9;
+  border-radius: 2px;
+  box-shadow: 0px 2px 29px 0px rgba(0,0,0,1);
+  padding: 1em;
+}
+
+/* username container*/
+#logbruker {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+/* password container*/
+#logpassord {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* button for desktop*/
+#headerbutton {
+  display: none;
+}
+
+/* Logg inn text*/
+#loginlabel {
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* log in button container */
+#loginbutton {
+  margin-top: 8px;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 25px;
+}
+
+/* log in button */
+.login {
+  color:white;
+  font-size: 18px;
+  font-family: Arial;
+  height: 35px;
+  width: 100%;
+  background-color: #ff9900;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin-top: 10%;
+}
+
+/* username inputfield */
+.brukernavnmobile {
+  width: 95%;
+  padding: 3px;
+}
+
+/* password inputfield */
+.passordmobile {
+  width: 95%;
+  padding: 3px;
+}
+
+/* desktop content */
+#container {
+  display: none;
+}
+
+/* footer nav menu */
+#faq {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* register text */
+#registerText {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 16px;
+  width: 240px;
+  font-family: "Verdana", Geneva, sans-serif;
+
+}
+
+/* registerbutton */
+.registerMobile {
+color:white;
+ width: 150px;
+ background-color: #ff9900;
+ border: 1px solid black;
+ border-radius: 2px;
+ padding: 7.5px;
+ margin-top: 10px;
+ margin-right: auto;
+ margin-left: auto;
+}
+
+/* registerbutton container */
+#registerbtn {
+    text-align: center;
+    margin: auto;
+    top: 15px;
+}
+
+/* thedropdown menu */
+.dropbtn {
+    cursor: pointer;
+
+  }
+
+
+/* The container <div>*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.2);
+    bottom: 0;
+}
+
+/* the x in dropdown menu */
+#kryss {
+   height:15px;
+   width:20px;
+   padding-left:95%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/* for desktop*/
+#reg {
+  display: none;
+}

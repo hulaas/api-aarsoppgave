@@ -1,0 +1,59 @@
+
+      <div  class="form">
+    		<form id="contactform">
+          <!-- Labels and inputfields for name, email, username and password -->
+    			<p class="contact"><label for="name">Navn</label></p>
+    			<input id="name" name="name" placeholder="Fornavn og etternavn" required="" tabindex="1" type="text">
+
+    			<p class="contact"><label for="email">Email</label></p>
+    			<input id="email" name="email" placeholder="eksempel@buddyfinder.no" required="" tabindex="2" type="email">
+
+                <p class="contact"><label for="username">Lag brukernavn</label></p>
+    			<input id="username" name="username" placeholder="Brukernavn" required="" tabindex="3" type="text">
+
+                <p class="contact"><label for="password">Lag passord</label></p>
+    			<input type="password" id="password" name="password" required="" tabindex="4" >
+                <p class="contact"><label for="repassword">Gjenta passord</label></p>
+    			<input type="password" id="repassword" name="repassword" required="" tabindex="5" >
+          <!-- -->
+
+          <!-- The select month dropdown + birthday and birthyear -->
+               <fieldset>
+                 <label>Fødselsdag</label>
+                <label>Dag<input class="birthday" maxlength="2" name="BirthDay"  placeholder="Dag" required=""></label>
+                <label class="month">
+                <select class="select-style" name="BirthMonth">
+                <option value="">Måned</option>
+                <option  value="01">Januar</option>
+                <option value="02">Februar</option>
+                <option value="03" >Mars</option>
+                <option value="04">April</option>
+                <option value="05">Mai</option>
+                <option value="06">Juni</option>
+                <option value="07">Juli</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">Oktober</option>
+                <option value="11">November</option>
+                <option value="12" >Desember</option>
+                </label>
+               </select>
+                <label>År <input class="birthyear" maxlength="4" name="BirthYear" placeholder="År" required=""></label>
+              </fieldset>
+            <!-- -->
+
+            <!-- Select genter + phone and registrationbutton -->
+            <select class="select-style gender" name="gender">
+            <option value="select">Kjønn</option>
+            <option value="m">Mann</option>
+            <option value="f">Kvinne</option>
+            <option value="others">Annet</option>
+            </select><br><br>
+
+            <p class="contact"><label for="phone">Mobil telefon</label></p>
+            <input id="phone" name="phone" placeholder="Mobil nummer" required="" type="text"> <br>
+            <input class="button" name="submit" id="submit" tabindex="5" value="Registrer meg!" type="submit">
+            <!-- -->
+   </form>
+</div>
+</div>

@@ -1,0 +1,39 @@
+/* Denne siden er laget av Håvard Betten, siste gang endret 28.09.2017. */
+/* Denne siden er kontrollert av Ola bredviken, siste gang 28.09.2017. */
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: #F0F8FF;
+  font-family: georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../picture/default/background-desktop.png");
+  background-position: top;
+}
+
+.logosection {
+  display: none;
+}
+
+.logosectiondesktop {
+  width: 300px;
+  height: 200px;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  display: inline;
+  width: 30%;
+}
+
+#regler {
+  text-align: center;
+  position: relative;
+  float: left;
+  width: 40%;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-left: auto;
+  border-bottom: 1px solid black;
+}

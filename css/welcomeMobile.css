@@ -1,0 +1,40 @@
+/* Denne siden er laget av Ola bredviken, siste gang endret 28.09.2017. */
+/* Denne siden er kontrollert av Håvard Betten, siste gang 28.09.2017. */
+
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: #F0F8FF;
+  background-image: url("../picture/default/background-mobile.png");
+  background-position: top;
+  font-family: georgia, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.logosectiondesktop {
+  width: 300px;
+  height: 200px;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  display: inline;
+  width: 30%;
+}
+
+
+
+/* This is the logo */
+#logo {
+  font-size: 20px;
+  background-color: #5F9EA0;
+  padding: 0;
+  text-align: center;
+  width: 76%;
+  box-shadow: 0px 6px 6px -1px rgba(201,189,201,1);
+  height: 64px;
+  margin: 0;
+}
